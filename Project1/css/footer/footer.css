@@ -1,0 +1,67 @@
+/* fonts to be used */
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+
+#footer{
+  background: #00061c left bottom repeat-x;
+  height: 100%;
+  width: 100%;
+}
+
+#footerContainer{
+  /* add some padding */
+  padding-top: 40px;
+  padding-bottom: 20px;
+
+  /* flex-box properties */
+  display: flex;
+  justify-content: space-around;
+}
+
+
+
+
+
+/* Footer Navigation */
+
+
+
+#footNav li{
+  margin-top: 10px;
+  margin-bottom: 10px;
+  list-style-type: none;
+}
+
+#footNav a{
+    /*text styles */
+  text-decoration: none;
+  font-family: Raleway;
+  color: rgba(187, 189, 191, 0.5);
+  font-size: 12px;
+}
+
+
+
+
+ /* Footer Contact Info */
+
+
+
+
+#footerContact{
+  /* Text Styles */
+  color: white;
+}
+
+#footerContact th{
+  font-family: Roboto;
+  padding-bottom: 10px;
+
+}
+
+#footerContact td{
+  padding-bottom: 10px;
+  /* styles */
+  font-family: Raleway;
+}

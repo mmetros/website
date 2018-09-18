@@ -1,0 +1,119 @@
+/* fonts to be used */
+/* font-family: 'Roboto', sans-serif;
+font-family: 'Raleway', sans-serif; */
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+
+#upperLogo, #topNav{
+  width: 100%;
+  text-align: center;
+}
+
+/* @media only screen and (min-width: 1020px ){
+  #canvas{
+    margin: 60px 50px;
+    padding: 70px 50px;
+    border: 2px solid rgba(0, 0, 0, 0.1);
+  }
+}
+@media only screen and (max-width:1020px){
+  #canvas{
+    margin: 70px 100px;
+  }
+} */
+
+#canvas{
+  margin: 70px 100px;
+}
+
+
+/* logo Image */
+#logoImage{
+  max-height: 80px;
+  max-width: 100%;
+}
+
+#siteInfo{
+  clear: left;
+  /* margin */
+  margin-top: 20px;
+  overflow-x: hidden;
+  overflow-y: hidden;
+
+}
+
+.address{
+  width: 33.333%;
+  float: left;
+  font-family: Roboto;
+  font-size: 14px;
+  line-height: 2em;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-weight: 600;
+  color: rgba(0,0,0,.3);
+  text-align: center;
+}
+
+#topNav{
+  margin-top: 50px;
+  font-family: Roboto;
+  width: 100%;
+  display: block;
+}
+
+.main-nav{
+  display: block;
+  text-align: center;
+  height: 30px;
+}
+
+#topNavUL{
+  padding: 0px 30px;
+  background-color: white;
+  display: inline-flex;
+  list-style-type: none;
+
+
+}
+
+.nav-item{
+  /* color */
+  color: rgba(0,0,0,.5);
+  /* margin */
+  margin-right: 28px;
+  /* remove text decoration */
+  text-decoration: none;
+/* letter spacing */
+  letter-spacing: .5px;
+
+  /* uppercase */
+  text-transform: uppercase;
+  font-size: 14px;
+}
+
+.active{
+  color:black;
+  border-bottom-color:rgba(0, 0, 0, 0.1);
+  border-bottom-style: solid;
+  border-width: 2px;
+}
+
+.nav-item:hover{
+  border-bottom-color:rgba(0, 0, 0, 0.1);
+  border-bottom-style: solid;
+  border-width: 2px;
+  color: #222;
+  font-weight: 400;
+}
+
+.page-divider{
+  margin-top: -1.3em;
+  margin-right: 3%;
+  margin-left: 3%;
+  border-bottom: 2px solid rgba(0,0,0,.1);
+}
